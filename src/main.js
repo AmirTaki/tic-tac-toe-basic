@@ -6,3 +6,9 @@ const allowDrop = (event) =>{
 const drag = (event) => {
     event.dataTransfer.setData("text", event.target.id);
 }
+
+const drop = (event) => {
+    event.preventDefault();
+    let data = event.dataTransfer.getDate("text");
+    event.target.appendChild(document.getElementById(data))
+}
