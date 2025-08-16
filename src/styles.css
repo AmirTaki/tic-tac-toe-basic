@@ -12,3 +12,11 @@ body{
     min-height: 100vh;
     background: linear-gradient(45deg, #0085ff, #ff1458);
 }
+
+
+.board {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 50px;
+}
