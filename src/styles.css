@@ -79,3 +79,12 @@ body{
     background-color: #fff;
     transform: rotate(45deg);
 }
+
+.drag .dragBox .cross::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background-color: #fff;
+    transform: rotate(45deg);
+}
