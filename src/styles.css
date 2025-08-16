@@ -33,3 +33,9 @@ body{
     align-items: center;
 
 }
+
+.board .dropBox:nth-child(3), 
+.board .dropBox:nth-child(6), 
+.board .dropBox:nth-child(9) {
+    border-right: none;
+}
