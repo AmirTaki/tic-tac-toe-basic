@@ -44,3 +44,15 @@ body{
 .board .dropBox:nth-child(9) {
     border-bottom: none; 
 }
+
+.drag{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 420px;
+    width: 100px;
+    gap: 10px;
+    background-color: red;
+}
