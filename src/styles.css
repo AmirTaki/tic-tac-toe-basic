@@ -69,5 +69,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
 
+.drag .dragBox .cross::before{
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    background-color: #fff;
+    transform: rotate(45deg);
 }
