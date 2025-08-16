@@ -34,8 +34,13 @@ body{
 
 }
 
-.board .dropBox:nth-child(3), 
-.board .dropBox:nth-child(6), 
+.board .dropBox:nth-child(1), 
+.board .dropBox:nth-child(4), 
+.board .dropBox:nth-child(7) {
+    border-left: none; 
+}
+.board .dropBox:nth-child(7), 
+.board .dropBox:nth-child(8), 
 .board .dropBox:nth-child(9) {
-    border-right: none;
+    border-bottom: none; 
 }
