@@ -54,5 +54,8 @@ body{
     height: 420px;
     width: 100px;
     gap: 10px;
-    background-color: red;
+}
+.drag .dragBox{
+    padding: 15px;
+    background: rgba(255, 255, 255, .1);
 }
