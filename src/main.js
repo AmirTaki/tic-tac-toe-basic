@@ -9,6 +9,6 @@ const drag = (event) => {
 
 const drop = (event) => {
     event.preventDefault();
-    let data = event.dataTransfer.getDate("text");
+    let data = event.dataTransfer.getData("text");
     event.target.appendChild(document.getElementById(data))
 }
