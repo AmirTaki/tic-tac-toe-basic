@@ -12,3 +12,9 @@ const drop = (event) => {
     let data = event.dataTransfer.getData("text");
     event.target.appendChild(document.getElementById(data))
 }
+
+const reset = document.querySelector('.reset')
+
+reset.addEventListener("click", (e) => {
+   window.location.reload()
+})

@@ -33,7 +33,10 @@ body{
     align-items: center;
 
 }
-
+.board .dropBox div {
+    pointer-events: none;
+    scale: 1.5;
+}
 .board .dropBox:nth-child(1), 
 .board .dropBox:nth-child(4), 
 .board .dropBox:nth-child(7) {
