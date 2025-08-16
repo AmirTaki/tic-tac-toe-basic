@@ -20,3 +20,16 @@ body{
     grid-template-columns: repeat(3, 1fr);
     margin: 0 50px;
 }
+
+.board .dropBox {
+    position: relative;
+    width: 140px;
+    height: 140px;
+    border-left: 4px solid #fff;
+    border-bottom: 4px solid #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
