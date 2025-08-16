@@ -61,7 +61,7 @@ body{
     padding: 15px;
     background: rgba(255, 255, 255, .1);
 }
-.drag .dragBox .cross
+.cross
 {
     position: relative;
     width: 50px;
@@ -71,7 +71,7 @@ body{
     align-items: center;
 }
 
-.drag .dragBox .cross::before{
+.cross::before{
     content: "";
     position: absolute;
     width: 5px;
@@ -80,7 +80,7 @@ body{
     transform: rotate(45deg);
 }
 
-.drag .dragBox .cross::after{
+ .cross::after{
     content: "";
     position: absolute;
     width: 100%;
@@ -89,7 +89,7 @@ body{
     transform: rotate(45deg);
 }
 
-.drag .dragBox .circle {
+.circle {
     position: relative;
     width: 50px ;
     height: 50px;
